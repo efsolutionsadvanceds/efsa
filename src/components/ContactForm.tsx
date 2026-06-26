@@ -275,7 +275,7 @@ export function ContactForm() {
     const message = `Olá Edgard, me chamo ${data.name} da empresa ${data.business}.\nSolicito o diagnóstico técnico estratégico para a nossa operação.\n\nE-mail: ${data.email}\nWhatsApp: ${data.phone}`
     const encodedMessage = encodeURIComponent(message)
     
-    window.open(`https://api.whatsapp.com/send?phone=5511999999999&text=${encodedMessage}`, '_blank')
+    window.open(`https://api.whatsapp.com/send?phone=5511967873507&text=${encodedMessage}`, '_blank')
     
     reset()
     setIsSubmittingState(false)

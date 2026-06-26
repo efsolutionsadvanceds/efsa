@@ -23,34 +23,34 @@ interface ProjectData {
 const PROJECTS_DATA: ProjectData[] = [
   {
     id: 'p1',
-    name: 'Landing Page Premium',
-    alias: 'The Conversion Machine',
-    description: 'Arquitetura de alta conversão focada no mercado corporativo e infoprodutos. Estruturada para capturar leads com eficiência implacável.',
-    techs: ['React', 'Next.js', 'Framer Motion'],
-    stats: { speed: 95, conversion: 98, power: 85 }
+    name: 'Centralizze Pay',
+    alias: 'Fintech - Em construção...',
+    description: 'plataforma fintech voltada para crédito estruturado na construção civil, permitindo solicitação, análise e gestão de crédito de forma digital. O sistema integra autenticação segura, análise financeira, motor de risco, gestão contratual e carteira financeira (wallet), com arquitetura preparada para futuras integrações de Open Finance, biometria, formalização digital e operação via FIDC.',
+    techs: ['React', 'TypeScript', 'Vite', 'Styled Components', 'Axios', 'Node.js', 'Express', 'JWT', 'Zod', 'APIs REST', 'arquitetura modular', 'autenticação segura', 'integração Front e Back'],
+    stats: { speed: 99, conversion: 98, power: 100 }
   },
   {
     id: 'p2',
-    name: 'Dashboard Automatizado',
-    alias: 'The Data Controller',
-    description: 'Sistema interno web que centraliza dados operacionais, gerando relatórios em tempo real e poupando centenas de horas manuais.',
-    techs: ['TypeScript', 'Node.js', 'PostgreSQL'],
-    stats: { speed: 85, conversion: 80, power: 100 }
+    name: 'FRD Locações',
+    alias: 'Plataforma WEB & Funil de conversão',
+    description: 'Desenvolvimento da plataforma web completa para a pioneira em venda programada de motocicletas na Grande Florianópolis. A solução integra um sistema de captura de leads altamente persuasivo, focado em conversão e livre de fricção para motoristas de aplicativos e profissionais de logística autônomos. A arquitetura foi otimizada para carregar em menos de um segundo em conexões móveis e conta com seções estratégicas para planos de locação e expansão de franquias B2B. O projeto resultou em um canal digital robusto, que automatizou a triagem de propostas e conectou de ponta a ponta a infraestrutura da empresa com o público-alvo.',
+    techs: ['HTML', 'CSS', 'Javascript'],
+    stats: { speed: 85, conversion: 80, power: 75 }
   },
   {
     id: 'p3',
-    name: 'E-commerce High Performance',
-    alias: 'The Revenue Engine',
-    description: 'Plataforma de vendas ultraveloz, integrada com gateways de pagamento seguros e conciliação de PIX totalmente automatizada.',
-    techs: ['Stripe', 'React', 'AWS'],
-    stats: { speed: 90, conversion: 95, power: 90 }
+    name: 'Burger & Dangeons',
+    alias: 'Plataforma Full-Stack - Gestão de pedidos',
+    description: 'Desenvolvimento da plataforma web completa para a pioneira em venda programada de motocicletas na Grande Florianópolis. A solução integra um sistema de captura de leads altamente persuasivo, focado em conversão e livre de fricção para motoristas de aplicativos e profissionais de logística autônomos. A arquitetura foi otimizada para carregar em menos de um segundo em conexões móveis e conta com seções estratégicas para planos de locação e expansão de franquias B2B. O projeto resultou em um canal digital robusto, que automatizou a triagem de propostas e conectou de ponta a ponta a infraestrutura da empresa com o público-alvo.',
+    techs: ['HTML', 'CSS', 'JS', 'Node.js', 'Express.js', 'Supabase'],
+    stats: { speed: 85, conversion: 95, power: 100 }
   },
   {
     id: 'p4',
-    name: 'SaaS Multi-tenant',
-    alias: 'The Scalable Titan',
-    description: 'Infraestrutura em nuvem preparada para receber milhares de usuários simultâneos com isolamento de banco de dados.',
-    techs: ['Docker', 'Kubernetes', 'Prisma'],
+    name: 'Peniel Hub',
+    alias: 'Finance System (Sistema financeiro)',
+    description: 'Desenvolvimento do PenielHub, uma solução SaaS ERP financeira customizada de ponta a ponta para gestão e auditoria eclesiástica. A plataforma unifica em tempo real a escrituração de entradas (Dízimos por cargos ministeriais e Ofertas) e o balanço detalhado de saídas operacionais (gastos, aluguéis e logística de dispensa). O ecossistema implementa segurança robusta com interceptores de rotas via JWT Token local, ofuscação de elementos DOM para mitigar ataques de Flash of Unauthenticated Content (FOUC) e persistência escalável com criptografia conectada diretamente ao Supabase BaaS. O painel administrativo exibe dashboards reativos em tempo real e relatórios dinâmicos que simplificam a transparência contábil da instituição.',
+    techs: ['HTML5', 'CSS3', 'Javascript', 'Routes', 'Node.js', 'Express.js', 'Front/Back', 'Supabase DB'],
     stats: { speed: 88, conversion: 85, power: 98 }
   }
 ]
