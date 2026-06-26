@@ -41,7 +41,7 @@ const PROJECTS_DATA: ProjectData[] = [
     id: 'p3',
     name: 'Burger & Dangeons',
     alias: 'Plataforma Full-Stack - Gestão de pedidos',
-    description: 'Desenvolvimento da plataforma web completa para a pioneira em venda programada de motocicletas na Grande Florianópolis. A solução integra um sistema de captura de leads altamente persuasivo, focado em conversão e livre de fricção para motoristas de aplicativos e profissionais de logística autônomos. A arquitetura foi otimizada para carregar em menos de um segundo em conexões móveis e conta com seções estratégicas para planos de locação e expansão de franquias B2B. O projeto resultou em um canal digital robusto, que automatizou a triagem de propostas e conectou de ponta a ponta a infraestrutura da empresa com o público-alvo.',
+    description: 'Desenvolvimento full-stack de uma plataforma de autoatendimento digital e e-commerce para a hamburgueria Burger & Dangeons (B&D), unindo uma interface de cardápio de alta conversão à eficiência operacional. O ecossistema compreende um frontend dinâmico otimizado para navegação móvel e um sistema interno de gerenciamento de pedidos (backoffice) que processa as requisições em tempo real. A arquitetura foi estruturada com Node.js e Express.js para as regras de negócio, enquanto o banco de dados e a autenticação foram centralizados no Supabase. O projeto eliminou intermediários e automatizou o fluxo de entrega, desde a escolha do produto na mesa ou delivery até o controle interno da cozinha.',
     techs: ['HTML', 'CSS', 'JS', 'Node.js', 'Express.js', 'Supabase'],
     stats: { speed: 85, conversion: 95, power: 100 }
   },
